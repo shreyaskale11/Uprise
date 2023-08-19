@@ -9,7 +9,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 import pandas as pd
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ""
 print("hello world")
 
 df = pd.read_csv('src\datasets\Amazon Sale Report.csv\Amazon Sale Report.csv',low_memory=False)
